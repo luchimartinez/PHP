@@ -1,0 +1,93 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:lightgray;
+    color: black;
+}
+
+h1 {
+    background-color: burlywood;
+}
+
+pre {
+    font-size: 20px;
+    margin-top: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+/* label {
+    margin-left: 15px;
+    margin-bottom: 2px;
+} */
+
+input {
+    margin-left: 10px;
+    margin-bottom: 6px;
+    margin-right: 30px;
+    margin-top: 6px;
+    
+}
+
+#name{
+    margin-left: 51px;
+    margin-bottom: 6px;
+    margin-right: 30px;
+    margin-top: 6px;
+}
+
+#mail {
+    margin-left: 36px;
+    margin-bottom: 6px;
+    margin-right: 30px;
+    margin-top: 6px;
+}
+
+#ad {
+    margin-left: 9px;
+    margin-bottom: 6px;
+    margin-right: 30px;
+    margin-top: 6px;
+}
+
+#ad2 {
+    margin-left: 125px;
+    margin-bottom: 6px;
+    margin-right: 30px;
+    margin-top: 6px;
+}
+
+#cel {
+    margin-left: 23px;
+    margin-bottom: 6px;
+    margin-right: 30px;
+    margin-top: 6px;
+}
+
+#town {
+    margin-left: 123px;
+    margin-bottom: 6px;
+    margin-right: 0px;
+    margin-top: 6px;
+}
+
+#state {
+    margin-left: 0px;
+    margin-bottom: 6px;
+    margin-right: 0px;
+    margin-top: 6px;
+}
+
+#zip {
+    margin-left: 0px;
+    margin-bottom: 6px;
+    margin-right: 30px;
+    margin-top: 6px;
+}
+
+#sky {
+    margin-left: 37px;
+    margin-bottom: 6px;
+    margin-right: 30px;
+    margin-top: 6px;
+}
+

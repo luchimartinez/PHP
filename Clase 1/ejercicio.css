@@ -1,0 +1,18 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:lightgray;
+    color: black;
+}
+
+h1 {
+    background-color: burlywood;
+}
+
+pre {
+    font-size: 28px;
+}
+
+input {
+    margin-right: 5cm;
+    margin-left: 5cm;
+}

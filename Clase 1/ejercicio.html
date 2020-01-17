@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio</title>
+    <link href="ejercicio.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1>Order Form</h1>
+    <hr>
+    <br>
+    <form action="https://ccyd.com.ar" method="get"></form>
+    </form>
+    <pre>Contact Details</pre>
+
+    <label for="name">Full name </label>
+    <input type="text" name="name">
+    <label for="mail">Email adress</label>
+    <input type="password" name="mail">
+    <br>
+    <label for="adress">Postal adresses</label>
+    <input type="text" name="adress" value="Address Line 1">
+    <label for="home">Home Phone No.</label>
+    <input type="text" name="home">
+    <br>
+    <input type="text" value="Address Line 2">
+    <label for="cell">Cell Phone No.</label>
+    <input type="text" name="cell">
+    <br>
+    <input type="text" value="Town/City" size="10">
+    <input type="text" value="State" size="8">
+    <input type="text" value="Zip Code" size="10">
+    <label for="skype">Skype Name</label>
+    <input type="text" name="skype">
+    <br>
+    <select name="seleccion" id="seleccion">
+        <option value="pais" selected>Country</option>
+        <option value="pais2">Argentina</option>
+        <option value="pais3">Chile</option>
+        <option value="pais4">Peru</option>
+    </select>
+    <label for="tw">Twitter</label>
+    <input type="text" name="tw">
+    <br>
+    <br>
+    <hr>
+    <pre>Login Details</pre>
+    <br>
+    <label for="pass">Password</label>
+    <input type="password" name="pass" size="8">
+    <label for="pass2">Confirm Password</label>
+    <input type="password" name="pass2" size="8">
+    <br>
+    <br>
+    <hr>
+    <pre>Order Details</pre>
+    <table border=1 cellspacing=0 cellpadding=5>
+        <tr>
+            <th colspan="1" align="center">Product Code</th>
+            <th colspan="1" rowspan="1" align="center">Description</th>
+            <th colspan="1" rowspan="1" align="center">Qty</th>
+            <th colspan="1" rowspan="1" align="center">Price</th>
+            <th colspan="1" rowspan="1" align="center">Total</th>
+
+        </tr>
+
+        <tr>
+            <td colspan="1" align="center">COMP001</td>
+            <td colspan="1" rowspan="1">The ultimate smartphone</td>
+            <td colspan="1" rowspan="1"><input type="text" value="0" size="3"></td>
+            <td colspan="1" rowspan="1">399,99</td>
+            <td colspan="1" rowspan="1">0.00</td>
+
+            <td></td>
+        </tr>
+
+        <tr>
+            <td colspan="1" align="center">COMP002</td>
+            <td colspan="1" rowspan="1">The ultimate tablet</td>
+            <td colspan="1" rowspan="1"><input type="text" value="0" size="3"></td>
+            <td colspan="1" rowspan="1">499,99</td>
+            <td colspan="1" rowspan="1">0.00</td>
+        </tr>
+
+        <tr>
+            <td colspan="1" align="center">COMP003</td>
+            <td colspan="1" rowspan="1">The ultimate netbook</td>
+            <td colspan="1" rowspan="1"><input type="text" value="0" size="3"></td>
+            <td colspan="1" rowspan="1">299,99</td>
+            <td colspan="1" rowspan="1">0.00</td>
+        </tr>
+
+        <tr>
+            <td colspan="1" rowspan="1"></td>
+            <td colspan="1" rowspan="1"></td>
+            <td colspan="2" rowspan="1" align="right">Order Total</td>
+            <td colspan="1" rowspan="1">0.00</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <hr>
+    <pre>Payment Details</pre>
+    <label for="ncard">Name on card</label>
+    <input type="text" name="ncard">
+    <label for="card">Credit Card No.</label>
+    <input type="text" name="card">
+    <br>
+    <label for="exp">Expire date</label>
+    <input type="text" name="exp" value="2015-06">
+    <label for="cv">CVV2 No.</label>
+    <input type="text" name="cv"> (Three digit code at back of the card)
+    <br>
+    <hr>
+    <input type="submit" value="Submit Order">
+    <input type="submit" value="Save Order">
+
+</body>
+
+</html>

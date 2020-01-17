@@ -1,0 +1,33 @@
+body {
+    font-family: 'Courier New', 'Courier', 'monospace'; /* en este caso no hay diferencia entre ' y "  */
+    background-color: lightcoral; /* hay 3 formas de escribir el color, color name, hex code (#ffffff) y decimal code */
+}
+
+a:link{
+    color: black;
+    
+}
+
+a:visited{
+    color: darkviolet;
+    background-color: darkslategray;
+}
+
+a:hover{  /* para pasar el mousse por arriba */
+    color: red;
+    background-color: violet;
+}
+
+h1 {
+    font-size: big;
+}
+
+div.refs {
+    background-color: yellow;
+    color: black;
+}
+
+div.lista {
+    background-color: lightpink;
+    color: black;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de uso de formularios</title>
+</head>
+<body>
+    
+<form action="https://ccyd.com.ar" method="get"></form>
+<pre>Numero de cuenta</pre>
+<input type="text" name="acceso">PIN: 
+<input type="password" name="pin" size="8">Transaccion <!-- size = tamaño del cuadrado, NO maximo caracteres -->
+<br>
+<br>
+<select name="seleccion" id="seleccion">
+    <option value="saldo" selected>Saldo de cuenta</option>
+    <option value="trans">Transferir</option>
+    <option value="ults">Últimos movimientos</option>
+    <option value="alto">Detener pago</option>
+</select>
+<br>
+<input type="radio" name="verify_by_mail" value="yes" checked>Enviar mail con
+<br>
+<input type="radio" name="verify_by_mail" value="no" >No enviar mail con la version 
+<br>
+<input type="checkbox" name="info" value="cds">Certificados de depósito
+<br>
+<input type="checkbox" name="info" value="mortgages">Tasas de interés de
+<br>
+<input type="checkbox" name="info" value="autoloans">Tasas de interés de préstamos
+<br>
+<textarea name="comments" cols="60" rows="5" chars = "225"></textarea>
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpiar"> 
+</body>
+</html>

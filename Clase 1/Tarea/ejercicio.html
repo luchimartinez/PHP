@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio</title>
+    <link href="ejercicio.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1>Order Form</h1>
+    <hr>
+    <br>
+    <form action="https://ccyd.com.ar" method="get"></form>
+    </form>
+    <pre>Contact Details</pre>
+
+    <label for="name">Full name </label>
+    <input type="text" name="name" id="name">
+    <label for="mail">Email Adress</label>
+    <input type="password" name="mail" id="mail">
+    <br>
+    <label for="adress">Postal adresses</label>
+    <input type="text" name="adress" value="Address Line 1" id="ad">
+    <label for="home">Home Phone No.</label>
+    <input type="text" name="home">
+    <br>
+    <input type="text" value="Address Line 2" id="ad2">
+    <label for="cell">Cell Phone No.</label>
+    <input type="text" name="cell" id="cel">
+    <br>
+    <input type="text" value="Town/City" size="10" id="town" style="width: 63px;">
+    <input type="text" value="State" size="8" id="state" style="width: 34px;">
+    <input type="text" value="Zip Code" size="10" id="zip" style="width: 58px">
+    <label for="skype">Skype Name</label>
+    <input type="text" name="skype" id="sky">
+    <br>
+    <select name="seleccion" id="seleccion" style="margin-left: 120px; width: 182px;">
+        <option value="pais" selected>Country</option>
+        <option value="pais2">Argentina</option>
+        <option value="pais3">Chile</option>
+        <option value="pais4">Peru</option>
+    </select>
+    <label for="tw" style=" margin-left: 25px ">Twitter</label>
+    <input type="text" name="tw" style="margin-left: 95px; width: 150px; height: 15px;">
+    <br>
+    <br>
+    <hr>
+    <br>
+    <pre>Login Details</pre>
+    <br>
+    <label for="pass">Password</label>
+    <input type="password" name="pass" size="8" style="margin-left: 52px; width: 172px;">
+    <label for="pass2">Confirm Password</label>
+    <input type="password" name="pass2" size="8" style=" width: 156px; margin-left: 1px;">
+    <br>
+    <br>
+    <hr>
+    <br>
+    <pre>Order Details</pre>
+    <table border=1 cellspacing=0 cellpadding=5>
+        <tr>
+            <th colspan="1">Product Code</th>
+            <th colspan="1" rowspan="1">Description</th>
+            <th colspan="1" rowspan="1">Qty</th>
+            <th colspan="1" rowspan="1">Price</th>
+            <th colspan="1" rowspan="1">Total</th>
+
+        </tr>
+
+        <tr>
+            <td colspan="1">COMP001</td>
+            <td colspan="1" rowspan="1">The ultimate smartphone</td>
+            <td colspan="1" rowspan="1"><input type="text" value="0" size="3"></td>
+            <td colspan="1" rowspan="1">399,99</td>
+            <td colspan="1" rowspan="1">0.00</td>
+
+            <td></td>
+        </tr>
+
+        <tr>
+            <td colspan="1">COMP002</td>
+            <td colspan="1" rowspan="1">The ultimate tablet</td>
+            <td colspan="1" rowspan="1"><input type="text" value="0" size="3"></td>
+            <td colspan="1" rowspan="1">499,99</td>
+            <td colspan="1" rowspan="1">0.00</td>
+        </tr>
+
+        <tr>
+            <td colspan="1">COMP003</td>
+            <td colspan="1" rowspan="1">The ultimate netbook</td>
+            <td colspan="1" rowspan="1"><input type="text" value="0" size="3"></td>
+            <td colspan="1" rowspan="1">299,99</td>
+            <td colspan="1" rowspan="1">0.00</td>
+        </tr>
+
+        <tr>
+            <td colspan="1" rowspan="1"></td>
+            <td colspan="1" rowspan="1"></td>
+            <td colspan="2" rowspan="1" align="right">Order Total</td>
+            <td colspan="1" rowspan="1">0.00</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <pre>Payment Details</pre>
+    <label for="ncard">Name on card</label>
+    <input type="text" name="ncard" style=" margin-left: 24px; margin-right: 39px;">
+    <label for="card">Credit Card No.</label>
+    <input type="text" name="card" style=" margin-left: 21px; width: 153px;">
+    <br>
+    <label for="exp">Expire date</label>
+    <input type="text" name="exp" value="2015-06" style=" width: 60px; width: 60px;margin-left: 41px;margin-right: 2px;">
+    <label for="cv" style="margin-left: 147px;">CVV2 No.</label>
+    <input type="text" name="cv" style="margin-left: 65px; width: 50px;"> (Three digit code at back of the card)
+    <br>
+    <hr>
+    <input type="submit" value="Submit Order" style="margin-left: 500px;">
+    <input type="submit" value="Save Order">
+
+</body>
+
+</html>
